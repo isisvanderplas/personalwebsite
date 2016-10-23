@@ -6,15 +6,30 @@ p{
   font-family: helvetica;
 }
 
-.header{
-  height:300px;
+.row{
+  height:360px;
   background-color: black;
-  background-size: cover;
+  margin: none;
 }
 
 #portrait{
     background-image: url('../img/zelfportret.jpg');
     background-position: left;
-    height: 400px;
-    background-size: cover;
+    height: 360px;
+    background-size: 57%;
+    background-repeat: no-repeat;
+}
+
+#about{
+  margin-top: 5%;
+  font-size: 1.2em;
+  color: white;
+
+}
+
+
+
+
+.container{
+
 }
