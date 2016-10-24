@@ -3,7 +3,8 @@ body{
 }
 
 p{
-  font-family: helvetica;
+  font-family: Times;
+  margin-bottom: 2.5em;
 }
 
 .row{
@@ -24,12 +25,14 @@ p{
   margin-top: 5%;
   font-size: 1.2em;
   color: white;
-
 }
 
 
+#whitebackground{
+  background-color: white;
+  margin-top: 2em;
+}
 
-
-.container{
-
+.thumbnail{
+  background-color: white;
 }
