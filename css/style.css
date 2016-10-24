@@ -35,4 +35,5 @@ p{
 
 .thumbnail{
   background-color: white;
+  height: inherit;
 }

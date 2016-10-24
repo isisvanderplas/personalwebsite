@@ -1,0 +1,46 @@
+doctype html
+html(lang='en')
+	head
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		link(href='css/bootstrap.min.css', rel='stylesheet')
+		link(rel='stylesheet', href='css/style.css')
+		script(src='https://use.fontawesome.com/2d5053d512.js')
+		title Personal Website
+	body
+		.row
+			#portrait.col-lg-8
+			#about.col-lg-3
+				p
+					| This is my personal website, in wich I will show my progress in webdesign and -development. I'll be adding new projects regularly, so stay tuned!
+				button#github.btn.btn-default.btn-lg(type='button')
+					i.fa.fa-github(aria-hidden='true')
+				button#facebook.btn.btn-default.btn-lg(type='button')
+					i.fa.fa-facebook-official(aria-hidden='true')
+				button#linkedIn.btn.btn-default.btn-lg(type='button')
+					i.fa.fa-linkedin-square(aria-hidden='true')
+				button#contact.btn.btn-default.btn-lg(type='button')
+					i.fa.fa-envelope(aria-hidden='true')
+		.container
+			#whitebackground.row
+				.col-lg-6
+					.thumbnail
+						img(src='img/tramgrafiti.jpg', alt='photography')
+						.caption
+							h3 Photography
+							p
+								| I like portraits, animals, street- and nightphotography.
+								| Check out my portfolio!
+				.col-lg-6
+					.thumbnail
+						img(src='img/yogawebsite.png', alt='...')
+						.caption
+							h3 webdevelopment
+							p
+								| I started the 12-week course web development intensive at the
+								| NYCDA in Amsterdam in September 2016. Here you'll find my progress!
+			script(src='js/jquery.min.js')
+			script(src='js/bootstrap.min.js')
+			script(src='js/app.js', <='', body='')
+			
