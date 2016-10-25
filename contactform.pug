@@ -1,0 +1,23 @@
+html
+  head
+    title contact form
+  body
+    include navbar
+
+    .container
+      .row
+        .col-xs-6.col-xs-offset-3
+          h1 please contact me
+
+          form(action="/send email" method="POST")
+            .form-group
+              label(for="full_name") Full name
+              input(name="full_name" type="text" id="full_name" class="form-control" placeholder="your name")
+            .form-group
+              label(for="email")  Email Adress
+              input(name="email_adress" type="text" id="email" class="form-control" placeholder="your email")
+            .form-group
+              label(for="email_content") email
+              textarea(name="email_content"  class="form-control" id="email_content" rows= "5" placeholder="your message")
+
+            button(type="button" class="btn btn-success btn-lg btn-block") Submit
